@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>   
+    <section class="egg">
+        <div class="egg__header">
+            <div class="egg__header__title">the eggs world</div>
+        </div>
+        <div class="egg__box">
+            <img src="gif/egg_gif.gif" alt="" class="egg__gif">
+            <div class="box__counter">
+                <div class="box__counter__title">0/10000</div>
+                <div class="box__counter__text">0x4432227442E08...</div>
+            </div>
+            <hr class="separator">
+            <div class="box__cost">
+                <div class="box__cost__title">1 TEW costs 0.3 ETH.</div>
+                <div class="box__cost__text">Excluding gas fees.</div>
+                <div class="quantity_inner">        
+                    <button class="bt_minus">
+                        <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                    <input type="text" value="1" size="2" class="quantity" data-max-count="99" />
+                    <button class="bt_plus">
+                        <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+            </div>
+            <hr class="separator">
+            <div class="box__connect">
+                <div class="box__connect__text">Connect to the Ethereum network</div>
+                <button class="box__connect__btn">CONNECT</button>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>           

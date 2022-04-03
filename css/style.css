@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.separator {
+    height: 3px;
+    background: #000000;
+    margin-top: 50px;
+}
+
+.egg__header {
+    width: 100%;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 60px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(60px);
+    padding: 14px 0;
+}
+
+.egg__header__title {
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.egg {
+    background: url('../img/bg.png') center center/cover no-repeat;
+    padding-bottom: 240px;
+}
+
+.egg__gif {
+    position: absolute;
+    top: -120px;
+    left: -120px;
+    width: 271px;
+    height: 271px;
+    z-index: 5;
+    
+}
+
+.egg__box {
+    display: block;
+    margin: 150px auto 0 auto;
+    width: 730px;
+    height: 715px;
+    background: #EDEDED;
+    border-radius: 100px;
+    position: relative;
+    padding: 50px 65px;
+}
+
+.box__counter {
+    display: block;
+    margin: 0 auto;
+}
+
+.box__counter__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.box__counter__text {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #707070;
+    text-align: center;
+}
+  
+.box__cost__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box__cost__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.quantity_inner {
+    display:flex;
+    margin: 0 auto;
+    width: 198px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 60px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(60px);
+    border-radius: 100px;
+    padding: 4px 34px;
+    margin-top: 30px;
+}        
+.quantity_inner .bt_minus,
+.quantity_inner .bt_plus,
+.quantity_inner .quantity {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: transparent;
+    cursor: pointer;
+    outline: 0;
+}
+.quantity_inner .quantity {
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+.quantity_inner .bt_minus svg,
+.quantity_inner .bt_plus svg {
+    stroke: #000;
+    stroke-width: 4;
+    transition: 0.5s;
+    margin: 10px;
+}    
+.quantity_inner .bt_minus:hover svg,
+.quantity_inner .bt_plus:hover svg {
+    stroke: #000;
+}
+
+.box__connect__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box__connect__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 350px;
+    height: 60px;
+    background: #000000;
+    border-radius: 100px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 7px 76px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
